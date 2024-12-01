@@ -1,8 +1,7 @@
 from django.core.management.base import BaseCommand
 from django.db.models import Q
 from datetime import datetime
-from tasks.models import Task
-
+from task_manager.tasks.models import Task
 
 class Command(BaseCommand):
     help = 'Менеджер задач через консоль'
